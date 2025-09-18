@@ -24,6 +24,8 @@ img {
     vertical-align: middle;
 }
 
+/* buttons */
+
 .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -34,6 +36,14 @@ img {
     background-color: var(--blue);
     color: white;
 }
+
+.btn-outline-dark {
+    border: 1px solid black;
+}
+
+/* /buttons */
+
+/* header */
 
 #part-header {
     background-color: white;
@@ -108,7 +118,10 @@ img {
 .col-full {
     width: 100%;
 }
+/* /header */
 
+
+/* main */
 #hero {
     background-color: var(--hero-bg);
     height: 600px;
@@ -131,7 +144,7 @@ img {
     margin: auto;
 }
 
-
+/* margin and the plans part */
 #plans {
     margin-bottom: 7rem;
 
@@ -209,7 +222,9 @@ img {
 .fa-check {
     color: var(--blue);
 }
+/* /margin and the plans part */
 
+/* margin and the partners part */
 #partners {
 
     .col-jumbo {
@@ -240,10 +255,9 @@ img {
     }
 }
 
-.btn-outline-dark {
-    border: 1px solid black;
-}
+/* /margin and the parteners part */
 
+/* margin of operetion section */
 #operations {
     h2 {
         margin: 4rem 0;
@@ -252,7 +266,9 @@ img {
     }
 
 }
+/* /margin of operetion section */
 
+/* margin of team section */
 #teams {
     h2 {
         margin-bottom: 2rem;
@@ -267,6 +283,8 @@ img {
         color: var(--blue);
     }
 }
+/* /margin of teams section */
+/* footer part */
 
 footer {
     margin-top: 3rem;
@@ -325,3 +343,5 @@ footer .language {
     align-items: center;
     gap: 0.5rem;
 }
+
+/* /footer part */
