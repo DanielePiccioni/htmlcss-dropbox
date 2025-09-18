@@ -79,4 +79,59 @@ img
 
 }
 
+.container
+{
+  width: 80%;
+  max-width: 1200px;
+  margin: auto
+}
 
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem
+}
+
+
+[class^="col"]
+{
+  padding: 1rem;
+}
+
+.col
+{
+  width: auto;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.col-text
+{
+  width: calc(100% / 12 * 5);
+}
+
+.col-jumbo
+{
+  width: calc(100% / 12 * 7);
+}
+
+#hero
+{
+  background-color: var(--hero-bg);
+  height: 580px;
+
+  h1
+  {
+    padding: 4.3rem 0 3rem 0;
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
+  p
+  {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+}
