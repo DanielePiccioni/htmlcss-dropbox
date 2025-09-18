@@ -133,6 +133,8 @@ img {
 
 
 #plans {
+    margin-bottom: 7rem;
+
     h2 {
         margin: 4rem 0;
         padding: 4rem 0;
@@ -204,6 +206,38 @@ img {
     }
 }
 
-.fa-check{
+.fa-check {
     color: var(--blue);
+}
+
+#partners {
+
+    .col-jumbo {
+        width: 50%;
+    }
+
+    .col-partner {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .col-partner h3{
+        margin-bottom: 1.5rem;
+    }
+    .col-partner p{
+        margin-bottom: 1.5rem;
+
+    }
+
+    .col-partner .btn{
+        align-items: center;
+        width: auto;
+        padding: 1rem 1.5rem;
+    }
+}
+
+.btn-outline-dark{
+  border: 1px solid black;
 }
