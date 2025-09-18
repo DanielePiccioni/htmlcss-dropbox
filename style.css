@@ -259,8 +259,69 @@ img {
         margin-top: 5rem;
         font-size: 2.5rem;
     }
-    p{
+
+    p {
         font-size: 2.5rem;
         margin-bottom: 2rem;
+        text-decoration: none;
+        color: var(--blue);
     }
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    width: 70%;
+    margin: auto;
+}
+
+footer .row {
+    display: flex;
+    justify-content: center;
+}
+
+footer .col {
+    width: calc(100% / 5);
+    font-size: 13px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 1.8rem;
+}
+
+footer .footer-bottom {
+    margin-top: 2rem;
+}
+
+footer hr {
+    border: 0;
+    border-top: 1px solid grey;
+    margin: 1rem 0;
+    width: 19%;
+}
+
+footer ul a {
+    color: rgb(139, 130, 130);
+    text-decoration: none;
+}
+
+footer .language {
+    color: #aaa;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
